@@ -18,7 +18,6 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: raj80dockerid/test:6
       - image: shanthiravisg/kubernetes:latest
         name: flaskdemo
         resources: {}
