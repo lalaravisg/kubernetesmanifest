@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - image: raj80dockerid/test:6
-      - image: shanthiravisg/kubernetes:6
+      - image: shanthiravisg/kubernetes:latest
         name: flaskdemo
         resources: {}
 status: {}
